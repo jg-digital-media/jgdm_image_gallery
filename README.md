@@ -1,2 +1,2 @@
-# jgdm_image_gallery
-Starter files for a static image gallery
+# jgdm_mobile_hamburger_menu
+Setup for a mobile website with a hamburger menu
