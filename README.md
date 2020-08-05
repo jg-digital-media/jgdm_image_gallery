@@ -1,2 +1,2 @@
-# jgdm_mobile_hamburger_menu
-Setup for a mobile website with a hamburger menu
+# jgdm_image_gallery
+Setup for a static image gallery website
