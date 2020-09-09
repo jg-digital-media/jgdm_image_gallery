@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+// Variables
+
+$breakpoint-md: 980px;
+$breakpoint-sm: 680px;
+$breakpoint-xs: 580px;
+
 body {
     background: darkgray;
 }
@@ -20,12 +26,32 @@ body {
     border-bottom: solid purple 3px;
 }
 
+h2.category_title {
+    margin-top: 30px;
+    color: white;
+    color: purple;
+    padding: 0 20px;
+
+}
 li.gallery_item {
     width: 20px;
     width: 30%;
     display: inline-block;
     margin: 10px 1%;
     position: relative;
+
+    @media(max-width: $breakpoint-md) {
+        width: 80%;
+
+    }
+
+    @media(max-width: $breakpoint-xs) {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+
+    }
 
     img {
         width: 100%;
