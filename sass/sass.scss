@@ -12,3 +12,37 @@ body {
     margin: 0 auto;
     width: 100%;
 }
+
+li.gallery_item {
+    width: 20px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px 1%;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    div.caption {
+        position: relative;
+        background: black;
+        display: block;
+        /* top: -29px; */
+        bottom: 29px;
+
+        p {
+            position: relative;
+            /* background: black; */
+            color: white;
+            font-size: 10px;
+            width: 90%;
+            /* bottom: 25px; */
+            height: 25px;
+            /* padding: 5px 5px; */
+            /* margin-left: 5px; */
+            left: 30px;
+        }
+    }
+
+}
