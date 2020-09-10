@@ -42,18 +42,6 @@ li.gallery_item {
       position: relative; } }
   li.gallery_item img {
     width: 100%; }
-    li.gallery_item img + div.caption {
-      visibility: hidden;
-      opacity: 0;
-      transition: opacity .6s; }
-    li.gallery_item img:hover + div.caption {
-      visibility: visible;
-      opacity: 1;
-      transition: opacity .6s; }
-      li.gallery_item img:hover + div.caption:hover {
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity .6s; }
   li.gallery_item div.caption {
     position: relative;
     background: black;
