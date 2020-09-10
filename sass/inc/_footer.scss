@@ -1,0 +1,17 @@
+footer {
+    margin-top: 20px;
+
+    p {
+        text-align: center;
+
+        a {
+            color: red;
+            color: #950808;
+            font-size: 11px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
