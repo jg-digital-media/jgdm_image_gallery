@@ -9,8 +9,11 @@ $breakpoint-md: 980px;
 $breakpoint-sm: 680px;
 $breakpoint-xs: 580px;
 
+$font: arial;
+
 body {
     background: darkgray;
+    font-family: $font;
 }
 
 #container {
@@ -65,14 +68,28 @@ li.gallery_item {
 
     img {
         width: 100%;
+
+        & + div.caption {
+            visibility: hidden;
+        }
+        
+        &:hover + div.caption {
+            //display: none;
+            visibility: visible;
+
+            &:hover {
+                //display: block;
+                visibility: hidden;
+            }
+
+        }
     }
 
     div.caption {
         position: relative;
         background: black;
-        display: block;
         /* top: -29px; */
-        bottom: 29px;
+        bottom: 35px; 
 
         p {
             position: relative;
@@ -82,10 +99,12 @@ li.gallery_item {
             width: 90%;
             /* bottom: 25px; */
             height: 25px;
+            height: 100%;
             padding: 10px 5px;
             /* margin-left: 5px; */
             left: 30px;
         }
-    }
+    }    
+   
 
 }

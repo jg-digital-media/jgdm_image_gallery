@@ -3,7 +3,8 @@
   margin: 0; }
 
 body {
-  background: darkgray; }
+  background: darkgray;
+  font-family: arial; }
 
 #container {
   display: block;
@@ -45,12 +46,17 @@ li.gallery_item {
       position: relative; } }
   li.gallery_item img {
     width: 100%; }
+    li.gallery_item img + div.caption {
+      visibility: hidden; }
+    li.gallery_item img:hover + div.caption {
+      visibility: visible; }
+      li.gallery_item img:hover + div.caption:hover {
+        visibility: hidden; }
   li.gallery_item div.caption {
     position: relative;
     background: black;
-    display: block;
     /* top: -29px; */
-    bottom: 29px; }
+    bottom: 35px; }
     li.gallery_item div.caption p {
       position: relative;
       /* background: black; */
@@ -59,6 +65,7 @@ li.gallery_item {
       width: 90%;
       /* bottom: 25px; */
       height: 25px;
+      height: 100%;
       padding: 10px 5px;
       /* margin-left: 5px; */
       left: 30px; }
