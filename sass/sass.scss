@@ -24,6 +24,11 @@ body {
     margin: 0 auto;
     position: relative;
     border-bottom: solid purple 3px;
+
+    @media(max-width: $breakpoint-sm) {
+        width: 40%;
+
+    }
 }
 
 h2.category_title {
@@ -31,6 +36,11 @@ h2.category_title {
     color: white;
     color: purple;
     padding: 0 20px;
+
+    @media(max-width: $breakpoint-sm) {
+        padding: 20px 20px;
+
+    }
 
 }
 li.gallery_item {
