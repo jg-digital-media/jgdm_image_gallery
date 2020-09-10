@@ -23,15 +23,22 @@ li.gallery_item {
 
         & + div.caption {
             visibility: hidden;
+            opacity: 0;
+            transition: opacity .6s;
         }
         
         &:hover + div.caption {
             //display: none;
             visibility: visible;
+            opacity: 1;
+            transition: opacity .6s;
+
 
             &:hover {
                 //display: block;
                 visibility: hidden;
+                opacity: 0;
+                transition: opacity .6s;
             }
 
         }
