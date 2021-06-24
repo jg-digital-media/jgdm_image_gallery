@@ -7,7 +7,7 @@ Depending on the animation style you want to import, there are different gallery
 + ```_no.scss```
 + ```_v1.scss```
 
-Simply switch the required ```@import```directive.
+Simply switch the required ```@import``` directive.
 
 ## no.scss 
 
