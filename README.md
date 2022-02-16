@@ -1,13 +1,14 @@
-# jgdm_image_gallery  - Last Update  - 10/09/2020 (dd/mm/yyyy)
-Setup for a static image gallery website
+# jgdm_image_gallery  - Last Update  - 16/02/2022 11:20
 
+
+## Setup for a static image gallery website
 
 Depending on the animation style you want to import, there are different gallery animations available. They are stored in separate Sass Partial files.
 
 + ```_no.scss```
 + ```_v1.scss```
 
-Simply switch the required ```@import``` directive.
+Simply switch the required ```@import``` directive as list in the `sass.scss` file in this project.
 
 ## no.scss 
 
@@ -66,7 +67,7 @@ Simply switch the required ```@import``` directive.
 
 ## v1.scss
 
-+ With relative positioning and opacity properties, there is animated transitioning included display the captioning on image hover.
++ With relative positioning and opacity properties, there is animated fade transitioning included to the captioning of images on mouse hover.
 
 ```css
     li.gallery_item {
