@@ -1,0 +1,26 @@
+//config
+
+@import "sass/inc/head";
+
+@import "sass/config/breakpoints";
+@import "sass/config/colours";
+@import "sass/config/fonts";
+
+//utilities
+@import "sass/utilities/extends";
+@import "sass/utilities/mixins";
+
+//main content
+@import "sass/inc/header";
+
+//caption styles partial
+@import "sass/caption_styles/no";
+// @import "sass/caption_styles/v1";
+
+//Common
+@import "sass/common/nav";
+@import "sass/common/main";
+
+//main content
+@import "sass/inc/footer";
+
