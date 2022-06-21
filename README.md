@@ -1,7 +1,9 @@
-# jgdm_image_gallery  - Last Update  - 16/02/2022 11:20
+# jgdm_image_gallery  - Last Update  - 21/06/2022 13:39
 
 
 ## Setup for a static image gallery website
+
+To get started, ```cd``` to a project root directory and clone the repository using ```git clone https://github.com/jg-digital-media/jgdm_image_gallery```.
 
 Depending on the animation style you want to import, there are different gallery animations available. They are stored in separate Sass Partial files.
 
