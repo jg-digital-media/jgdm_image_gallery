@@ -1,6 +1,7 @@
 /*****************
-Last Update:  16/02/2022 - 11:20
-******************/
+*
+* Last Update:  21/06/2022 - 14:18
+*****************/
 * {
   padding: 0;
   margin: 0; }
@@ -83,5 +84,7 @@ footer {
   width: 100%; }
   footer p {
     text-align: center; }
+    footer p a {
+      color: red; }
 
 /*# sourceMappingURL=style.css.map */
