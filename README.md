@@ -1,11 +1,11 @@
-# jgdm_image_gallery  - Last Update  - 21/04/2023 08:31
+# jgdm_image_gallery  - Last Update  - 21/04/2023 08:34
 
 
 ## **Sections**
 
   + [Setup](#setup)
-  + Version 1: [v2](#version-1)
-  + Version 2: [v1](#version-2)
+  + [Style Version 2](#version-1)
+  + [Style Version 1](#version-2)
 
 
 ## Setup 
