@@ -4,8 +4,8 @@
 ## **Sections**
 
   + [Setup](#setup)
-  + [Version 1: no.scss](#no-scss)
-  + [Version 2: v1.scss](#v1-scss)
+  + [Version 1: no.scss](#no.scss)
+  + [Version 2: v1.scss](#v1.scss)
 
 
 ## Setup 
