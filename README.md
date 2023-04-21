@@ -1,7 +1,16 @@
-# jgdm_image_gallery  - Last Update  - 21/06/2022 13:39
+# jgdm_image_gallery  - Last Update  - 21/04/2023 08:20
 
 
-## Setup for a static image gallery website
+## **Sections**
+
+  + [Setup](#setup)
+  + [No.scss](#no-scss)
+  + [V1.scss](#v1-scss)
+
+
+## Setup 
+
+### Setup for a static image gallery website
 
 To get started, ```cd``` to a project root directory and clone the repository using ```git clone https://github.com/jg-digital-media/jgdm_image_gallery```.
 
@@ -10,7 +19,7 @@ Depending on the animation style you want to import, there are different gallery
 + ```_no.scss```
 + ```_v1.scss```
 
-Simply switch the required ```@import``` directive as list in the `sass.scss` file in this project.
+To get going, simply switch the required ```@import``` directive as list in the `sass.scss` file in this project and copy it to your own system.
 
 ## no.scss 
 
@@ -65,7 +74,6 @@ Simply switch the required ```@import``` directive as list in the `sass.scss` fi
 
 }
 ```
-
 
 ## v1.scss
 
