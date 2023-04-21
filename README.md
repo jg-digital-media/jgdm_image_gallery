@@ -4,8 +4,8 @@
 ## **Sections**
 
   + [Setup](#setup)
-  + Version 1: (#version-1)
-  + Version 2: (#version-2)
+  + Version 1: [v2](#version-1)
+  + Version 2: [v1](#version-2)
 
 
 ## Setup 
