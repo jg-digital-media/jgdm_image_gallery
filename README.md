@@ -1,15 +1,15 @@
-# jgdm_image_gallery  - Last Update  - 21/04/2023 08:20
+# jgdm_image_gallery  - Last Update  - 21/04/2023 08:24
 
 
 ## **Sections**
 
   + [Setup](#setup)
-  + [No.scss](#no-scss)
-  + [V1.scss](#v1-scss)
+  + [Version 1: no.scss](#no-scss)
+  + [Version 2: v1.scss](#v1-scss)
 
 
 ## Setup 
-
+[Back to Top](#sections)
 ### Setup for a static image gallery website
 
 To get started, ```cd``` to a project root directory and clone the repository using ```git clone https://github.com/jg-digital-media/jgdm_image_gallery```.
@@ -22,6 +22,7 @@ Depending on the animation style you want to import, there are different gallery
 To get going, simply switch the required ```@import``` directive as list in the `sass.scss` file in this project and copy it to your own system.
 
 ## no.scss 
+[Back to Top](#sections)
 
 + With no opacity, visibility or display styling or style transitioning applied.
 
@@ -76,6 +77,7 @@ To get going, simply switch the required ```@import``` directive as list in the 
 ```
 
 ## v1.scss
+[Back to Top](#sections)
 
 + With relative positioning and opacity properties, there is animated fade transitioning included to the captioning of images on mouse hover.
 
