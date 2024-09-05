@@ -2,7 +2,7 @@
 
 ## Repository and Website
 
-[Website](https://projects.jonniegrieve.co.uk/jga_image_gallery/)
+[Website](https://projects.jonniegrieve.co.uk/jgdm_image_gallery/)
 [Repository](https://github.com/jg-digital-media/jgdm_image_gallery)
 
 ## **Sections**
