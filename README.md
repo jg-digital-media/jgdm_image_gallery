@@ -1,5 +1,9 @@
-# jgdm_image_gallery  - Last Update  - 21/04/2023 08:34
+# jgdm_image_gallery  - Last Update  - 05/09/2024 16:17
 
+## Repository and Website
+
+[Website](https://projects.jonniegrieve.co.uk/jga_image_gallery/)
+[Repository](https://github.com/jg-digital-media/jgdm_image_gallery)
 
 ## **Sections**
 
