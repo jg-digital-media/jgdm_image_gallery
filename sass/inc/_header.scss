@@ -17,6 +17,7 @@
 }
 
 h2.category_title {
+
     margin-top: 30px;
     color: white;
     color: purple;
@@ -25,6 +26,12 @@ h2.category_title {
     @media(max-width: $breakpoint-sm) {
         padding: 20px 20px;
 
+    }
+
+    a {
+
+        font-size: 16px;
+        color: #cf01cf;
     }
 
 }
